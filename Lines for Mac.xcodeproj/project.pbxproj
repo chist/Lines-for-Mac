@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F45EE651A7B9C0A00A040D6 /* RecordsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F45EE631A7B9C0A00A040D6 /* RecordsWindow.m */; };
+		4F45EE661A7B9C0A00A040D6 /* RecordsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F45EE641A7B9C0A00A040D6 /* RecordsWindow.xib */; };
+		4F7F15DE1A7AF1E500BD3BB1 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F15DC1A7AF1E500BD3BB1 /* MainWindow.m */; };
+		4F8939821A7A9FB100FD2CA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8939811A7A9FB100FD2CA8 /* AppDelegate.m */; };
+		4F8939841A7A9FB100FD2CA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8939831A7A9FB100FD2CA8 /* main.m */; };
+		4F8939861A7A9FB100FD2CA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8939851A7A9FB100FD2CA8 /* Images.xcassets */; };
+		4F8939891A7A9FB100FD2CA8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8939871A7A9FB100FD2CA8 /* MainMenu.xib */; };
+		4F8939951A7A9FB100FD2CA8 /* Lines_for_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8939941A7A9FB100FD2CA8 /* Lines_for_MacTests.m */; };
+		4F8E0E191A7AC37300D3F1BB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8E0E181A7AC37300D3F1BB /* AudioToolbox.framework */; };
+		4F8E0E211A7AC9E100D3F1BB /* Applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E0E1E1A7AC9E100D3F1BB /* Applause.mp3 */; };
+		4F8E0E221A7AC9E100D3F1BB /* Blast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E0E1F1A7AC9E100D3F1BB /* Blast.mp3 */; };
+		4F8E0E231A7AC9E100D3F1BB /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E0E201A7AC9E100D3F1BB /* Click.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F89398F1A7A9FB100FD2CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F8939731A7A9FB100FD2CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F89397A1A7A9FB100FD2CA8;
+			remoteInfo = "Lines for Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F45EE621A7B9C0A00A040D6 /* RecordsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordsWindow.h; sourceTree = "<group>"; };
+		4F45EE631A7B9C0A00A040D6 /* RecordsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordsWindow.m; sourceTree = "<group>"; };
+		4F45EE641A7B9C0A00A040D6 /* RecordsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordsWindow.xib; sourceTree = "<group>"; };
+		4F7F15DC1A7AF1E500BD3BB1 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindow.m; path = ../MainWindow.m; sourceTree = "<group>"; };
+		4F7F15DD1A7AF1E500BD3BB1 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindow.h; path = ../MainWindow.h; sourceTree = "<group>"; };
+		4F89397B1A7A9FB100FD2CA8 /* Lines for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lines for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F89397F1A7A9FB100FD2CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8939801A7A9FB100FD2CA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F8939811A7A9FB100FD2CA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F8939831A7A9FB100FD2CA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F8939851A7A9FB100FD2CA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F8939881A7A9FB100FD2CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F89398E1A7A9FB100FD2CA8 /* Lines for MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lines for MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8939931A7A9FB100FD2CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8939941A7A9FB100FD2CA8 /* Lines_for_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lines_for_MacTests.m; sourceTree = "<group>"; };
+		4F8E0E181A7AC37300D3F1BB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4F8E0E1E1A7AC9E100D3F1BB /* Applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Applause.mp3; path = sounds/Applause.mp3; sourceTree = "<group>"; };
+		4F8E0E1F1A7AC9E100D3F1BB /* Blast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Blast.mp3; path = sounds/Blast.mp3; sourceTree = "<group>"; };
+		4F8E0E201A7AC9E100D3F1BB /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Click.mp3; path = sounds/Click.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8939781A7A9FB100FD2CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8E0E191A7AC37300D3F1BB /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F89398B1A7A9FB100FD2CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8939721A7A9FB100FD2CA8 = {
+			isa = PBXGroup;
+			children = (
+				4F8E0E1E1A7AC9E100D3F1BB /* Applause.mp3 */,
+				4F8E0E1F1A7AC9E100D3F1BB /* Blast.mp3 */,
+				4F8E0E201A7AC9E100D3F1BB /* Click.mp3 */,
+				4F8E0E181A7AC37300D3F1BB /* AudioToolbox.framework */,
+				4F89397D1A7A9FB100FD2CA8 /* Lines for Mac */,
+				4F8939911A7A9FB100FD2CA8 /* Lines for MacTests */,
+				4F89397C1A7A9FB100FD2CA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F89397C1A7A9FB100FD2CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F89397B1A7A9FB100FD2CA8 /* Lines for Mac.app */,
+				4F89398E1A7A9FB100FD2CA8 /* Lines for MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F89397D1A7A9FB100FD2CA8 /* Lines for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				4F8939801A7A9FB100FD2CA8 /* AppDelegate.h */,
+				4F8939811A7A9FB100FD2CA8 /* AppDelegate.m */,
+				4F8939851A7A9FB100FD2CA8 /* Images.xcassets */,
+				4F8939871A7A9FB100FD2CA8 /* MainMenu.xib */,
+				4F7F15DD1A7AF1E500BD3BB1 /* MainWindow.h */,
+				4F7F15DC1A7AF1E500BD3BB1 /* MainWindow.m */,
+				4F45EE621A7B9C0A00A040D6 /* RecordsWindow.h */,
+				4F45EE631A7B9C0A00A040D6 /* RecordsWindow.m */,
+				4F45EE641A7B9C0A00A040D6 /* RecordsWindow.xib */,
+				4F89397E1A7A9FB100FD2CA8 /* Supporting Files */,
+			);
+			path = "Lines for Mac";
+			sourceTree = "<group>";
+		};
+		4F89397E1A7A9FB100FD2CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F89397F1A7A9FB100FD2CA8 /* Info.plist */,
+				4F8939831A7A9FB100FD2CA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F8939911A7A9FB100FD2CA8 /* Lines for MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F8939941A7A9FB100FD2CA8 /* Lines_for_MacTests.m */,
+				4F8939921A7A9FB100FD2CA8 /* Supporting Files */,
+			);
+			path = "Lines for MacTests";
+			sourceTree = "<group>";
+		};
+		4F8939921A7A9FB100FD2CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F8939931A7A9FB100FD2CA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F89397A1A7A9FB100FD2CA8 /* Lines for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8939981A7A9FB100FD2CA8 /* Build configuration list for PBXNativeTarget "Lines for Mac" */;
+			buildPhases = (
+				4F8939771A7A9FB100FD2CA8 /* Sources */,
+				4F8939781A7A9FB100FD2CA8 /* Frameworks */,
+				4F8939791A7A9FB100FD2CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lines for Mac";
+			productName = "Lines for Mac";
+			productReference = 4F89397B1A7A9FB100FD2CA8 /* Lines for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F89398D1A7A9FB100FD2CA8 /* Lines for MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F89399B1A7A9FB100FD2CA8 /* Build configuration list for PBXNativeTarget "Lines for MacTests" */;
+			buildPhases = (
+				4F89398A1A7A9FB100FD2CA8 /* Sources */,
+				4F89398B1A7A9FB100FD2CA8 /* Frameworks */,
+				4F89398C1A7A9FB100FD2CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8939901A7A9FB100FD2CA8 /* PBXTargetDependency */,
+			);
+			name = "Lines for MacTests";
+			productName = "Lines for MacTests";
+			productReference = 4F89398E1A7A9FB100FD2CA8 /* Lines for MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8939731A7A9FB100FD2CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ivan Chistyakov";
+				TargetAttributes = {
+					4F89397A1A7A9FB100FD2CA8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4F89398D1A7A9FB100FD2CA8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4F89397A1A7A9FB100FD2CA8;
+					};
+				};
+			};
+			buildConfigurationList = 4F8939761A7A9FB100FD2CA8 /* Build configuration list for PBXProject "Lines for Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8939721A7A9FB100FD2CA8;
+			productRefGroup = 4F89397C1A7A9FB100FD2CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F89397A1A7A9FB100FD2CA8 /* Lines for Mac */,
+				4F89398D1A7A9FB100FD2CA8 /* Lines for MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8939791A7A9FB100FD2CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F45EE661A7B9C0A00A040D6 /* RecordsWindow.xib in Resources */,
+				4F8E0E211A7AC9E100D3F1BB /* Applause.mp3 in Resources */,
+				4F8E0E221A7AC9E100D3F1BB /* Blast.mp3 in Resources */,
+				4F8939861A7A9FB100FD2CA8 /* Images.xcassets in Resources */,
+				4F8E0E231A7AC9E100D3F1BB /* Click.mp3 in Resources */,
+				4F8939891A7A9FB100FD2CA8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F89398C1A7A9FB100FD2CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8939771A7A9FB100FD2CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F45EE651A7B9C0A00A040D6 /* RecordsWindow.m in Sources */,
+				4F7F15DE1A7AF1E500BD3BB1 /* MainWindow.m in Sources */,
+				4F8939841A7A9FB100FD2CA8 /* main.m in Sources */,
+				4F8939821A7A9FB100FD2CA8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F89398A1A7A9FB100FD2CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8939951A7A9FB100FD2CA8 /* Lines_for_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F8939901A7A9FB100FD2CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F89397A1A7A9FB100FD2CA8 /* Lines for Mac */;
+			targetProxy = 4F89398F1A7A9FB100FD2CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F8939871A7A9FB100FD2CA8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8939881A7A9FB100FD2CA8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8939961A7A9FB100FD2CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F8939971A7A9FB100FD2CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F8939991A7A9FB100FD2CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lines for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F89399A1A7A9FB100FD2CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Lines for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F89399C1A7A9FB100FD2CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lines for MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lines for Mac.app/Contents/MacOS/Lines for Mac";
+			};
+			name = Debug;
+		};
+		4F89399D1A7A9FB100FD2CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lines for MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lines for Mac.app/Contents/MacOS/Lines for Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8939761A7A9FB100FD2CA8 /* Build configuration list for PBXProject "Lines for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8939961A7A9FB100FD2CA8 /* Debug */,
+				4F8939971A7A9FB100FD2CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8939981A7A9FB100FD2CA8 /* Build configuration list for PBXNativeTarget "Lines for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8939991A7A9FB100FD2CA8 /* Debug */,
+				4F89399A1A7A9FB100FD2CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F89399B1A7A9FB100FD2CA8 /* Build configuration list for PBXNativeTarget "Lines for MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F89399C1A7A9FB100FD2CA8 /* Debug */,
+				4F89399D1A7A9FB100FD2CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8939731A7A9FB100FD2CA8 /* Project object */;
+}
